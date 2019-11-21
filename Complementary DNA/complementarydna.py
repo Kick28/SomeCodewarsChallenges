@@ -7,10 +7,10 @@
 #DNA strand is never empty or there is no DNA at all (again, except for Haskell).
 
 #More similar exercise are found here http://rosalind.info/problems/list-view/ (source)
-
+#Output:
 DNA_strand ("ATTGC") # return "TAACG"
-
 DNA_strand ("GTAT") # return "CATA"
+
 
 import string
 def DNA_strand(dna):
